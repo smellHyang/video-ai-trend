@@ -1,2 +1,4 @@
 .claude/settings.local.json
 webhook_receiver/.env
+__pycache__/
+*.pyc
