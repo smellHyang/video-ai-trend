@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-04-10T00:00:00",
+  "source_file": "analysis/articles.json",
+  "summary": {
+    "article_count": 33,
+    "high_importance_count": 19,
+    "fetch_failed_count": 2,
+    "category_count": 6,
+    "date_range": {
+      "start": "2026-01-08",
+      "end": "2026-04-09"
+    }
+  },
+  "trend_summary": [
+    "Sora 종료 이후 AI 비디오 시장이 품질(Runway)·비용(Kling)·생태계(Veo)·오픈소스 4축으로 재편 중.",
+    "힉스필드(Higgsfield)가 물리 엔진 기반 Cinema Studio 3.0으로 기업가치 13억 달러 달성, 생성형 영상 AI 신흥 강자로 부상.",
+    "쾌수(Kling AI) 3.0이 4K 60fps·AI Director 기능으로 월정액 $66/월에 출시, 가성비 경쟁력 재확인.",
+    "Netflix(InterPositive 인수·VOID 모델)·Disney(CES 2026 AI 발표·Sora 계약 해지)·YouTube·Meta 등 대형 플레이어 AI 전략 가속.",
+    "한국에서 dobStudio(CES 2026 혁신상)와 AI 풀스택 전략이 글로벌 무대에서 주목.",
+    "생성에서 이해·멀티모달·후반제작 AI까지 범위가 빠르게 확대 중."
+  ],
+  "category_breakdown": {
+    "industry": 14,
+    "generation": 8,
+    "editing": 3,
+    "multimodal": 3,
+    "understanding": 3,
+    "research": 2
+  },
+  "importance_breakdown": {
+    "high": 19,
+    "medium": 11,
+    "low": 3
+  },
+  "top_companies": [
+    { "name": "Google", "count": 9 },
+    { "name": "OpenAI", "count": 8 },
+    { "name": "Kuaishou(Kling)", "count": 5 },
+    { "name": "Runway", "count": 5 },
+    { "name": "Pika", "count": 3 },
+    { "name": "Disney", "count": 3 },
+    { "name": "ByteDance", "count": 2 },
+    { "name": "Netflix", "count": 2 },
+    { "name": "Meta", "count": 2 },
+    { "name": "NVIDIA", "count": 2 },
+    { "name": "Higgsfield", "count": 2 },
+    { "name": "Luma AI", "count": 1 }
+  ],
+  "top_technologies": [
+    { "name": "Veo 3.1", "count": 8 },
+    { "name": "Sora", "count": 6 },
+    { "name": "Kling 3.0", "count": 4 },
+    { "name": "Google Vids", "count": 3 },
+    { "name": "Runway Gen-4", "count": 2 },
+    { "name": "Kling AI", "count": 2 },
+    { "name": "Cinema Studio 3.0", "count": 2 },
+    { "name": "Higgsfield AI", "count": 2 },
+    { "name": "Seedance 2.0", "count": 1 },
+    { "name": "Luma Ray 3.14", "count": 1 },
+    { "name": "VOID", "count": 1 }
+  ],
+  "signal_cards": [
+    {
+      "title": "시장 재편",
+      "signal": "Sora 공백과 4강 경쟁 구도",
+      "evidence": [
+        "Kling·Runway·Veo가 각기 다른 포지셔닝으로 점유율 확대",
+        "힉스필드 기업가치 13억 달러 달성, 신흥 강자 부상"
+      ],
+      "strength": 16
+    },
+    {
+      "title": "플랫폼화",
+      "signal": "Google 생태계 수직통합",
+      "evidence": [
+        "Veo 3.1·Google Vids·YouTube Shorts·Gemini API 연계",
+        "무료 사용자 월 10회 Veo 비디오 생성으로 대중화 공략"
+      ],
+      "strength": 9
+    },
+    {
+      "title": "대기업 참전",
+      "signal": "Netflix·Disney·Meta AI 전략 가속",
+      "evidence": [
+        "Netflix InterPositive 인수·VOID 오픈소스 공개",
+        "Meta Vibes 플랫폼 + Muse Spark 모델 출시"
+      ],
+      "strength": 8
+    },
+    {
+      "title": "국내 부상",
+      "signal": "한국 AI 영상 스타트업 글로벌화",
+      "evidence": [
+        "dobStudio CES 2026 혁신상 수상",
+        "AI 풀스택(반도체·모델·서비스) 전략 공개"
+      ],
+      "strength": 5
+    }
+  ],
+  "editor_picks": [
+    "article-001",
+    "article-025",
+    "article-027",
+    "article-009",
+    "article-007"
+  ],
+  "total_articles": 33
+}

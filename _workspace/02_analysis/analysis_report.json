@@ -1,0 +1,645 @@
+{
+  "generated_at": "2026-04-09T16:26:02",
+  "source_file": "01_research\\articles.json",
+  "summary": {
+    "article_count": 24,
+    "high_importance_count": 13,
+    "fetch_failed_count": 2,
+    "category_count": 6,
+    "date_range": {
+      "start": "2026-01-08",
+      "end": "2026-04-08"
+    }
+  },
+  "trend_summary": [
+    "가장 많이 나온 주제는 industry이며 전체 24건 중 8건입니다.",
+    "가장 자주 언급된 기업은 Google(9회)입니다.",
+    "가장 자주 언급된 기술은 Veo 3.1(8회)입니다.",
+    "수집 데이터 중 fetch 실패 플래그는 2건이며, 최신 기사 날짜는 2026-04-08입니다.",
+    "Google 생태계 확장과 제품 통합이 최근 영상 AI 시장의 핵심 축으로 보입니다.",
+    "Sora 축소 또는 종료 이후 대체 모델 경쟁 구도가 시장 재편 신호로 반복 등장합니다.",
+    "생성뿐 아니라 이해·멀티모달 처리까지 확장되는 흐름이 뚜렷합니다.",
+    "편집 자동화와 후반작업 효율화도 별도 세그먼트로 성장 중입니다."
+  ],
+  "category_breakdown": {
+    "industry": 8,
+    "generation": 5,
+    "editing": 3,
+    "multimodal": 3,
+    "understanding": 3,
+    "research": 2
+  },
+  "importance_breakdown": {
+    "high": 13,
+    "medium": 9,
+    "low": 2
+  },
+  "top_companies": [
+    {
+      "name": "Google",
+      "count": 9
+    },
+    {
+      "name": "OpenAI",
+      "count": 7
+    },
+    {
+      "name": "Runway",
+      "count": 5
+    },
+    {
+      "name": "Kuaishou(Kling)",
+      "count": 4
+    },
+    {
+      "name": "Pika",
+      "count": 3
+    },
+    {
+      "name": "ByteDance",
+      "count": 2
+    },
+    {
+      "name": "Meta",
+      "count": 2
+    },
+    {
+      "name": "NVIDIA",
+      "count": 2
+    },
+    {
+      "name": "Alibaba",
+      "count": 2
+    },
+    {
+      "name": "Vidu",
+      "count": 1
+    },
+    {
+      "name": "Google/Alphabet",
+      "count": 1
+    },
+    {
+      "name": "Disney",
+      "count": 1
+    }
+  ],
+  "top_technologies": [
+    {
+      "name": "Veo 3.1",
+      "count": 8
+    },
+    {
+      "name": "Sora",
+      "count": 7
+    },
+    {
+      "name": "Kling 3.0",
+      "count": 3
+    },
+    {
+      "name": "Google Vids",
+      "count": 3
+    },
+    {
+      "name": "Seedance 2.0",
+      "count": 2
+    },
+    {
+      "name": "Runway Gen-3",
+      "count": 2
+    },
+    {
+      "name": "Pika",
+      "count": 2
+    },
+    {
+      "name": "Runway Gen-4.5",
+      "count": 1
+    },
+    {
+      "name": "Lyria 3",
+      "count": 1
+    },
+    {
+      "name": "Google Workspace",
+      "count": 1
+    },
+    {
+      "name": "AI Avatar",
+      "count": 1
+    },
+    {
+      "name": "Lyria",
+      "count": 1
+    }
+  ],
+  "signal_cards": [
+    {
+      "title": "시장 재편",
+      "signal": "Sora 공백과 대체재 부상",
+      "evidence": [
+        "OpenAI/Sora 관련 언급 빈도",
+        "Kling, Runway, Google 계열 모델 동시 부상"
+      ],
+      "strength": 14
+    },
+    {
+      "title": "플랫폼화",
+      "signal": "Google의 제품 통합 가속",
+      "evidence": [
+        "Google, Workspace, YouTube, Gemini 연계 기사 다수",
+        "Veo 3.1, Google Vids, Flow 등 연결성 강조"
+      ],
+      "strength": 9
+    },
+    {
+      "title": "멀티모달 확장",
+      "signal": "생성에서 이해/분석까지 확대",
+      "evidence": [
+        "multimodal + understanding 카테고리 증가",
+        "긴 영상 분석, 통합 워크스페이스, 대화형 분석 사례"
+      ],
+      "strength": 6
+    },
+    {
+      "title": "데이터 품질",
+      "signal": "원문 품질 보정 필요",
+      "evidence": [
+        "fetch_failed=2",
+        "문자 인코딩 또는 일부 필드 파손 감지"
+      ],
+      "strength": 13
+    }
+  ],
+  "recent_articles": [
+    {
+      "id": "article-008",
+      "title": "ByteDance Seedance 2.0 출시: 멀티모달 비디오 생성의 새 기준",
+      "source": "Segmind Blog",
+      "url": "https://blog.segmind.com/ai-video-generation-api-seedance-2-0-review-real-world-use-cases-2026/",
+      "published_date": "2026-04-08",
+      "category": "generation",
+      "summary": "ByteDance의 Seedance 2.0은 텍스트/이미지/오디오/비디오를 동시 입력하는 통합 멀티모달 아키텍처. 최대 9개 참조이미지, 3개 비디오클립, 3개 오디오클립을 한 번에 처리. 멀티샷 스크립팅으로 장면 시퀀스 생성. 720p 기준 8~10초 영상 $0.71.",
+      "key_points": [
+        "옴니-레퍼런스 제어로 시각적 일관성 유지",
+        "멀티샷 스크립팅으로 복수 장면 시퀀스 생성",
+        "네이티브 오디오 합성 지원",
+        "720p 8~10초 영상 약 $0.71"
+      ],
+      "companies_mentioned": [
+        "ByteDance"
+      ],
+      "technologies_mentioned": [
+        "Seedance 2.0",
+        "Segmind API"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-012",
+      "title": "Meta, Vibes 출시 및 새 AI 모델 공개: 140억 달러 투자 후 첫 대형 모델",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "published_date": "2026-04-08",
+      "category": "industry",
+      "summary": "Meta가 Alexandr Wang 140억 달러 영입 계약 후 첫 대형 AI 모델 출시. AI 생성 콘텐츠 전용 숏비디오 플랫폼 Vibes 발표. Muse Spark 모델이 Vibes의 AI 비디오 기능을 구동할 예정.",
+      "key_points": [
+        "AI 생성 콘텐츠 전용 숏비디오 플랫폼 Vibes 출시",
+        "Alexandr Wang 140억 달러 영입 후 첫 대형 모델",
+        "Muse Spark 모델이 Vibes 비디오 기능 구동 예정"
+      ],
+      "companies_mentioned": [
+        "Meta",
+        "Scale AI"
+      ],
+      "technologies_mentioned": [
+        "Vibes",
+        "Muse Spark"
+      ],
+      "importance": "high",
+      "fetch_failed": true
+    },
+    {
+      "id": "article-022",
+      "title": "지보 홀딩스, 멀티모달 워크스페이스 엔진 통합: 숏폼 영상/음성/음악 일괄 제작",
+      "source": "GTT Korea",
+      "url": "https://www.gttkorea.com/news/articleView.html?idxno=25211",
+      "published_date": "2026-04-07",
+      "category": "multimodal",
+      "summary": "지보 홀딩스가 멀티모달 워크스페이스 엔진을 GIBO Watch 시스템에 통합. 영상 클립, AI 음성 내레이션, 배경음악을 단일 타임라인에서 통합 편집/출력.",
+      "key_points": [
+        "영상/음성/음악을 단일 작업 공간에서 통합 제작",
+        "다중 소셜미디어 플랫폼 직접 퍼블리싱"
+      ],
+      "companies_mentioned": [
+        "GIBO Holdings"
+      ],
+      "technologies_mentioned": [
+        "Multi-Modal Workspaces Engine",
+        "GIBO Watch"
+      ],
+      "importance": "low",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-009",
+      "title": "넷플릭스 AI 영상편집 모델 VOID 공개: 물체 삭제 후 물리 재생성",
+      "source": "솔루션뉴스",
+      "url": "https://www.solnews.co.kr/news/articleView.html?idxno=83964",
+      "published_date": "2026-04-05",
+      "category": "editing",
+      "summary": "넷플릭스가 VOID(Video Object and Interaction Deletion) 모델 공개. 촬영 영상에서 물체를 삭제하면 AI가 물리적 상호작용까지 재생성. 사용자 테스트에서 64.8% 선호도로 Runway(18.4%) 압도. HuggingFace에서 무료 공개.",
+      "key_points": [
+        "물체 삭제 후 물리적 반응까지 자동 재생성",
+        "사용자 선호도 64.8%로 경쟁 도구 압도",
+        "HuggingFace에서 무료 공개",
+        "딥페이크 악용 우려도 제기"
+      ],
+      "companies_mentioned": [
+        "Netflix"
+      ],
+      "technologies_mentioned": [
+        "VOID",
+        "HuggingFace",
+        "Generative OmniMatte"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-003",
+      "title": "Google Vids AI 비디오 기능 확장: 아바타 제어, Veo 3.1, YouTube 내보내기",
+      "source": "The AI Insider",
+      "url": "https://theaiinsider.tech/2026/04/03/google-expands-ai-video-capabilities-in-vids-with-avatar-control-veo-3-1-integration-and-youtube-export/",
+      "published_date": "2026-04-03",
+      "category": "generation",
+      "summary": "Google Vids에 자연어 프롬프트로 AI 아바타를 제어하는 기능 추가. 아바타가 제품/소품과 상호작용하며 시각적 일관성 유지. Chrome 화면녹화 확장도 함께 출시되어 기업 콘텐츠 제작 워크플로우 강화.",
+      "key_points": [
+        "자연어로 AI 아바타 연출 가능",
+        "Veo 3.1 통합으로 에디터 내 클립 생성",
+        "YouTube 직접 내보내기로 크리에이터 워크플로우 간소화"
+      ],
+      "companies_mentioned": [
+        "Google"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1",
+        "Google Vids",
+        "AI Avatar",
+        "Lyria"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-004",
+      "title": "Google, AI 비디오 대중화 추진 - OpenAI Sora 후퇴와 대조적 행보",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/ai-platforms-assistants/google-is-pushing-ai-video-into-ordinary-life-just-as-openai-pulls-sora-back",
+      "published_date": "2026-04-03",
+      "category": "industry",
+      "summary": "Google이 AI 비디오를 일상 도구로 확장하는 동안 OpenAI는 Sora에서 후퇴. Google Vids가 '호기심 대상'에서 '실용적 도구'로 전환 중이며, 무료 AI 비디오/음악 생성으로 대중 시장 공략.",
+      "key_points": [
+        "Google은 AI 비디오 대중화, OpenAI는 기업/코딩 도구로 전략 전환",
+        "Google Vids가 실용적 일상 도구로 포지셔닝",
+        "AI 비디오 시장에서 Google의 지배력 강화"
+      ],
+      "companies_mentioned": [
+        "Google",
+        "OpenAI"
+      ],
+      "technologies_mentioned": [
+        "Google Vids",
+        "Sora",
+        "Veo 3.1"
+      ],
+      "importance": "medium",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-002",
+      "title": "Google Vids 대규모 업데이트: Veo 3.1 무료 제공 및 AI 아바타 도입",
+      "source": "Google Blog (Official)",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+      "published_date": "2026-04-02",
+      "category": "generation",
+      "summary": "Google이 Veo 3.1 기반 고품질 비디오 생성을 무료 사용자에게 월 10회 제공. Lyria 3 AI 음악 생성, 지시형 AI 아바타, YouTube 직접 내보내기 기능 추가. AI Ultra 구독자는 월 1,000회 생성 가능.",
+      "key_points": [
+        "무료 사용자 월 10회 Veo 3.1 비디오 생성",
+        "Lyria 3로 30초~3분 오리지널 음악 생성",
+        "AI 아바타로 프레젠터 영상 자동 생성",
+        "Google Workspace/Drive/YouTube 통합"
+      ],
+      "companies_mentioned": [
+        "Google"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1",
+        "Lyria 3",
+        "Google Vids",
+        "Google Workspace"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-024",
+      "title": "Veo 3.1 vs 경쟁 AI 비디오 모델 2026 비교 분석",
+      "source": "pxz.ai",
+      "url": "https://pxz.ai/blog/veo-31-vs-top-ai-video-generators-2026",
+      "published_date": "2026-04-02",
+      "category": "generation",
+      "summary": "Veo 3.1이 동기화된 오디오(대화/환경음/효과음) 원패스 생성 역량에서 유일무이한 경쟁력 보유. 네이티브 4K 생성, 아이덴티티 일관성 개선, Google 도구 생태계 통합이 강점.",
+      "key_points": [
+        "동기화 오디오 원패스 생성은 Veo 3.1 단독 역량",
+        "네이티브 4K 생성 지원",
+        "Google 생태계(Workspace, YouTube) 긴밀 통합"
+      ],
+      "companies_mentioned": [
+        "Google"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1"
+      ],
+      "importance": "medium",
+      "fetch_failed": false
+    }
+  ],
+  "high_priority_articles": [
+    {
+      "id": "article-001",
+      "title": "OpenAI Sora 서비스 종료 - AI 비디오 시장 지각변동",
+      "source": "Kling API Blog",
+      "url": "https://klingapi.com/blog/sora-shutdown-ai-video-2026",
+      "published_date": "2026-03-28",
+      "category": "industry",
+      "summary": "OpenAI가 3월 25일 Sora를 공식 종료. 하루 GPU 비용 420만 달러, 초당 생성비 1.40달러로 경쟁사(Kling 0.084달러) 대비 16배 높은 비용이 원인. 소비자 SNS 전략 실패와 EU AI Act 규제 대응 비용(4천만 달러)도 패인으로 지목됨.",
+      "key_points": [
+        "Sora 일일 GPU 비용 420만 달러, 총 수익 210만 달러에 그침",
+        "중국 경쟁사 Kling이 가격/기능 모두 압도",
+        "시장이 품질(Runway), 비용(Kling), 생태계(Veo), 오픈소스 4개 축으로 재편"
+      ],
+      "companies_mentioned": [
+        "OpenAI",
+        "Kuaishou(Kling)",
+        "Google",
+        "Runway",
+        "ByteDance"
+      ],
+      "technologies_mentioned": [
+        "Sora",
+        "Kling 3.0",
+        "Veo 3.1",
+        "Seedance 2.0",
+        "Runway Gen-4.5"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-002",
+      "title": "Google Vids 대규모 업데이트: Veo 3.1 무료 제공 및 AI 아바타 도입",
+      "source": "Google Blog (Official)",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/",
+      "published_date": "2026-04-02",
+      "category": "generation",
+      "summary": "Google이 Veo 3.1 기반 고품질 비디오 생성을 무료 사용자에게 월 10회 제공. Lyria 3 AI 음악 생성, 지시형 AI 아바타, YouTube 직접 내보내기 기능 추가. AI Ultra 구독자는 월 1,000회 생성 가능.",
+      "key_points": [
+        "무료 사용자 월 10회 Veo 3.1 비디오 생성",
+        "Lyria 3로 30초~3분 오리지널 음악 생성",
+        "AI 아바타로 프레젠터 영상 자동 생성",
+        "Google Workspace/Drive/YouTube 통합"
+      ],
+      "companies_mentioned": [
+        "Google"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1",
+        "Lyria 3",
+        "Google Vids",
+        "Google Workspace"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-003",
+      "title": "Google Vids AI 비디오 기능 확장: 아바타 제어, Veo 3.1, YouTube 내보내기",
+      "source": "The AI Insider",
+      "url": "https://theaiinsider.tech/2026/04/03/google-expands-ai-video-capabilities-in-vids-with-avatar-control-veo-3-1-integration-and-youtube-export/",
+      "published_date": "2026-04-03",
+      "category": "generation",
+      "summary": "Google Vids에 자연어 프롬프트로 AI 아바타를 제어하는 기능 추가. 아바타가 제품/소품과 상호작용하며 시각적 일관성 유지. Chrome 화면녹화 확장도 함께 출시되어 기업 콘텐츠 제작 워크플로우 강화.",
+      "key_points": [
+        "자연어로 AI 아바타 연출 가능",
+        "Veo 3.1 통합으로 에디터 내 클립 생성",
+        "YouTube 직접 내보내기로 크리에이터 워크플로우 간소화"
+      ],
+      "companies_mentioned": [
+        "Google"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1",
+        "Google Vids",
+        "AI Avatar",
+        "Lyria"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-005",
+      "title": "Sora 종료 후 AI 비디오 시장 재편: Runway, Kling, Veo 비교 분석",
+      "source": "Digital Applied",
+      "url": "https://www.digitalapplied.com/blog/ai-video-market-after-sora-runway-kling-veo-2026",
+      "published_date": "2026-03-29",
+      "category": "industry",
+      "summary": "Sora 종료 후 AI 비디오 시장이 4개 축으로 재편. Runway Gen-4(품질, $0.12/초), Kling 3.0(가성비, $0.07/초), Veo 3.1(오디오 통합, $0.05~0.50/초), Pika 2.5(크리에이티브, $0.15/초). 시장 규모 24억 달러, 연 34.2% 성장.",
+      "key_points": [
+        "Sora 초당 $1.30 비용으로 하루 1,500만 달러 소진",
+        "Kling 3.0이 최저가($0.07/초)로 비용 경쟁력 우위",
+        "AI 비디오 시장 24억 달러 규모, 34.2% CAGR",
+        "4개 티어(품질/비용/생태계/크리에이티브)로 시장 분화"
+      ],
+      "companies_mentioned": [
+        "OpenAI",
+        "Runway",
+        "Kuaishou(Kling)",
+        "Google",
+        "Pika"
+      ],
+      "technologies_mentioned": [
+        "Sora",
+        "Runway Gen-4",
+        "Kling 3.0",
+        "Veo 3.1",
+        "Pika 2.5"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-006",
+      "title": "Bloomberg: Kling AI, Runway, Vidu가 Sora 대체 주자로 부상",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/kling-ai-runway-vidu-the-ai-video-generators-set-to-replace-openai-s-sora",
+      "published_date": "2026-04-01",
+      "category": "industry",
+      "summary": "Bloomberg 보도에 따르면 Sora 종료 이후 Kling AI, Runway, Vidu 등이 사용자 급증. OpenAI의 AI 비디오 시장 퇴장으로 경쟁사들이 빠르게 시장 점유율을 확보 중.",
+      "key_points": [
+        "Sora 종료 직후 Kling, Runway, Vidu 사용자 급증",
+        "중국 AI 비디오 기업들의 글로벌 시장 확대"
+      ],
+      "companies_mentioned": [
+        "Kuaishou(Kling)",
+        "Runway",
+        "Vidu",
+        "OpenAI"
+      ],
+      "technologies_mentioned": [
+        "Kling AI",
+        "Runway",
+        "Vidu",
+        "Sora"
+      ],
+      "importance": "high",
+      "fetch_failed": true
+    },
+    {
+      "id": "article-007",
+      "title": "Google의 대형 AI 승리: OpenAI 비디오 사업 포기의 투자 영향",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/03/26/googles-massive-ai-win-openai-gives-up-on-video/",
+      "published_date": "2026-03-26",
+      "category": "industry",
+      "summary": "OpenAI가 IPO 준비를 위해 비디오 사업 중단하고 기업 도구/코딩으로 전략 전환. 디즈니 10억 달러 파트너십도 해지. Alphabet 주가 3.71% 상승. Google Veo 3.1이 YouTube Shorts, Vids, Gemini API에 통합되며 AI 비디오 시장 지배력 확대.",
+      "key_points": [
+        "OpenAI, IPO 앞두고 비디오 사업 전략적 철수",
+        "디즈니 10억 달러 캐릭터 라이선스 파트너십 종료",
+        "Alphabet 주가 3.71% 상승, 시장 긍정적 반응"
+      ],
+      "companies_mentioned": [
+        "Google/Alphabet",
+        "OpenAI",
+        "Disney"
+      ],
+      "technologies_mentioned": [
+        "Veo 3.1",
+        "Sora",
+        "YouTube Shorts",
+        "Gemini API"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-008",
+      "title": "ByteDance Seedance 2.0 출시: 멀티모달 비디오 생성의 새 기준",
+      "source": "Segmind Blog",
+      "url": "https://blog.segmind.com/ai-video-generation-api-seedance-2-0-review-real-world-use-cases-2026/",
+      "published_date": "2026-04-08",
+      "category": "generation",
+      "summary": "ByteDance의 Seedance 2.0은 텍스트/이미지/오디오/비디오를 동시 입력하는 통합 멀티모달 아키텍처. 최대 9개 참조이미지, 3개 비디오클립, 3개 오디오클립을 한 번에 처리. 멀티샷 스크립팅으로 장면 시퀀스 생성. 720p 기준 8~10초 영상 $0.71.",
+      "key_points": [
+        "옴니-레퍼런스 제어로 시각적 일관성 유지",
+        "멀티샷 스크립팅으로 복수 장면 시퀀스 생성",
+        "네이티브 오디오 합성 지원",
+        "720p 8~10초 영상 약 $0.71"
+      ],
+      "companies_mentioned": [
+        "ByteDance"
+      ],
+      "technologies_mentioned": [
+        "Seedance 2.0",
+        "Segmind API"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-009",
+      "title": "넷플릭스 AI 영상편집 모델 VOID 공개: 물체 삭제 후 물리 재생성",
+      "source": "솔루션뉴스",
+      "url": "https://www.solnews.co.kr/news/articleView.html?idxno=83964",
+      "published_date": "2026-04-05",
+      "category": "editing",
+      "summary": "넷플릭스가 VOID(Video Object and Interaction Deletion) 모델 공개. 촬영 영상에서 물체를 삭제하면 AI가 물리적 상호작용까지 재생성. 사용자 테스트에서 64.8% 선호도로 Runway(18.4%) 압도. HuggingFace에서 무료 공개.",
+      "key_points": [
+        "물체 삭제 후 물리적 반응까지 자동 재생성",
+        "사용자 선호도 64.8%로 경쟁 도구 압도",
+        "HuggingFace에서 무료 공개",
+        "딥페이크 악용 우려도 제기"
+      ],
+      "companies_mentioned": [
+        "Netflix"
+      ],
+      "technologies_mentioned": [
+        "VOID",
+        "HuggingFace",
+        "Generative OmniMatte"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    },
+    {
+      "id": "article-012",
+      "title": "Meta, Vibes 출시 및 새 AI 모델 공개: 140억 달러 투자 후 첫 대형 모델",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/04/08/meta-debuts-first-major-ai-model-since-14-billion-deal-to-bring-in-alexandr-wang.html",
+      "published_date": "2026-04-08",
+      "category": "industry",
+      "summary": "Meta가 Alexandr Wang 140억 달러 영입 계약 후 첫 대형 AI 모델 출시. AI 생성 콘텐츠 전용 숏비디오 플랫폼 Vibes 발표. Muse Spark 모델이 Vibes의 AI 비디오 기능을 구동할 예정.",
+      "key_points": [
+        "AI 생성 콘텐츠 전용 숏비디오 플랫폼 Vibes 출시",
+        "Alexandr Wang 140억 달러 영입 후 첫 대형 모델",
+        "Muse Spark 모델이 Vibes 비디오 기능 구동 예정"
+      ],
+      "companies_mentioned": [
+        "Meta",
+        "Scale AI"
+      ],
+      "technologies_mentioned": [
+        "Vibes",
+        "Muse Spark"
+      ],
+      "importance": "high",
+      "fetch_failed": true
+    },
+    {
+      "id": "article-015",
+      "title": "Visual AI in Video: 2026 랜드스케이프 - 모션 이해와 월드 모델",
+      "source": "Voxel51",
+      "url": "https://voxel51.com/blog/visual-ai-in-video-2026-landscape",
+      "published_date": "2026-01-08",
+      "category": "understanding",
+      "summary": "2026년 비디오 AI 3대 핵심 축: 모션을 핵심 신호로 활용한 시간적 이해, 물리 시뮬레이션 기반 월드 파운데이션 모델, 행동 조건부 생성으로 시뮬레이션→실세계 의사결정 연결. 의료/제조/로보틱스/자율주행 분야에서 실용화 진행.",
+      "key_points": [
+        "모션 이해가 로보틱스/자율주행/의료 핵심 기술로 부상",
+        "월드 파운데이션 모델이 영상 생성+물리 시뮬레이션 통합",
+        "비디오 데이터의 저장/샘플링/라벨링이 최대 병목"
+      ],
+      "companies_mentioned": [
+        "Google DeepMind",
+        "NVIDIA",
+        "Meta",
+        "OpenAI"
+      ],
+      "technologies_mentioned": [
+        "NVIDIA Cosmos",
+        "Genie 3",
+        "SAM 3",
+        "Sora 2",
+        "Veo 3.1"
+      ],
+      "importance": "high",
+      "fetch_failed": false
+    }
+  ],
+  "quality_notes": [
+    "원본 기사 파일에서 문자 인코딩 깨짐이 관찰됩니다.",
+    "일부 문자열 따옴표 누락으로 엄격 JSON 파싱이 불가능해 복원 로더를 사용했습니다.",
+    "배열형 필드는 따옴표 기반으로 복구했기 때문에 일부 항목이 축약되었을 수 있습니다."
+  ]
+}
